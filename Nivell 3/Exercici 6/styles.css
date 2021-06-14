@@ -32,14 +32,18 @@ header {
     height: 400px;
     background: url("../Imatges/Fonscapçalera.jpg") no-repeat center center/cover;
     display: grid;
-    padding: 100px 0 20px 0;
-    vertical-align: middle;
+    padding: 50px 0 20px 0;
+    
     
 }
 
 nav {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    
 }
 
 .logo img{
@@ -81,7 +85,7 @@ h1 {
     opacity: .7;
     background-color: #d1d9d9;
     margin: 0 20px;
-    padding: 5      0px 0;
+    padding: 50px 0;
     font-family: 'Times New Roman', Times, serif;
 }
 .seccions {
