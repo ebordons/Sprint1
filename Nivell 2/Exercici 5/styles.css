@@ -81,7 +81,7 @@ header {
     opacity: .7;
     background-color: #d1d9d9;
     margin: 0 20px;
-    padding: 5      0px 0;
+    padding: 50px 0;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -227,6 +227,12 @@ header {
 
     .publicitat {
         background-color: #d0af84;
+    }
+
+    .titol {
+
+        padding: 15px 0;
+        
     }
     
   }
