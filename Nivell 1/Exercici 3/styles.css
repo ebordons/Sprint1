@@ -1,0 +1,132 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background-color: #393e46;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.navegacioHeader {
+    background-color: #00adb5;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.primer, .segon, .tercer {
+    background-color: #aad8d3;
+}
+
+.primer {
+    flex: 1 1 auto;
+}
+
+.segon {
+    flex: 5 1 auto;
+}
+
+.tercer {
+    flex: 1 1 auto;
+}
+
+
+.principal {
+    background-color: #8fd9a8;
+}
+
+.titol {
+    background-color: #d2e69c;
+}
+
+.seccions {
+    background-color: #393e46;
+    display: flex;
+}
+
+.articles {
+    background-color: #150e56;
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article {
+    background-color: #1597bb;
+    flex: 1 1 40%;
+}
+
+.navegacioArticles {
+    background-color: #8fd6e1;
+    flex: 1 1 100%;
+}
+
+.aside {
+    background-color: #5b8a72;
+    flex: 1 1 auto;
+}
+
+.publicitat {
+    background-color: #bfcba8;
+}
+
+.footer {
+    background-color: #393e46;
+}
+
+.navegacioFooter {
+    background-color: #ffb037;
+}
+
+@media (max-width: 1024px) {
+  
+    /* Per a tablets */
+
+    .seccions {
+        background-color: #e6dd3b;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+  }
+
+  @media  (max-width: 767px) {
+  
+    /* Per a movils */
+
+    .navegacioHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles {
+        background-color: #53354a;
+        display: flex;
+         flex-flow: column wrap;
+    }
+
+    .article {
+        background-color: #903749;
+    }
+
+    .navegacioArticles {
+        background-color: #e84545;
+    }
+
+    .aside {
+        background-color: #966c3b;
+    }
+
+    .publicitat {
+        background-color: #d0af84;
+    }
+    
+  }
+  
